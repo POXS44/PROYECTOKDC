@@ -1,0 +1,10 @@
+C:\Users\POXS44\source\repos\Kdc\KDC\Inicidador\bin\Debug\Inicidador.exe.config
+C:\Users\POXS44\source\repos\Kdc\KDC\Inicidador\bin\Debug\Inicidador.exe
+C:\Users\POXS44\source\repos\Kdc\KDC\Inicidador\bin\Debug\Inicidador.pdb
+C:\Users\POXS44\source\repos\Kdc\KDC\Inicidador\obj\Debug\Inicidador.csprojAssemblyReference.cache
+C:\Users\POXS44\source\repos\Kdc\KDC\Inicidador\obj\Debug\Inicidador.Form1.resources
+C:\Users\POXS44\source\repos\Kdc\KDC\Inicidador\obj\Debug\Inicidador.Properties.Resources.resources
+C:\Users\POXS44\source\repos\Kdc\KDC\Inicidador\obj\Debug\Inicidador.csproj.GenerateResource.cache
+C:\Users\POXS44\source\repos\Kdc\KDC\Inicidador\obj\Debug\Inicidador.csproj.CoreCompileInputs.cache
+C:\Users\POXS44\source\repos\Kdc\KDC\Inicidador\obj\Debug\Inicidador.exe
+C:\Users\POXS44\source\repos\Kdc\KDC\Inicidador\obj\Debug\Inicidador.pdb

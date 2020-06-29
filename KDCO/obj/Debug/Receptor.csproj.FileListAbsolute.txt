@@ -1,0 +1,10 @@
+C:\Users\POXS44\source\repos\Kdc\KDC\Receptor\bin\Debug\Receptor.exe.config
+C:\Users\POXS44\source\repos\Kdc\KDC\Receptor\bin\Debug\Receptor.exe
+C:\Users\POXS44\source\repos\Kdc\KDC\Receptor\bin\Debug\Receptor.pdb
+C:\Users\POXS44\source\repos\Kdc\KDC\Receptor\obj\Debug\Receptor.csprojAssemblyReference.cache
+C:\Users\POXS44\source\repos\Kdc\KDC\Receptor\obj\Debug\Receptor.Form1.resources
+C:\Users\POXS44\source\repos\Kdc\KDC\Receptor\obj\Debug\Receptor.Properties.Resources.resources
+C:\Users\POXS44\source\repos\Kdc\KDC\Receptor\obj\Debug\Receptor.csproj.GenerateResource.cache
+C:\Users\POXS44\source\repos\Kdc\KDC\Receptor\obj\Debug\Receptor.csproj.CoreCompileInputs.cache
+C:\Users\POXS44\source\repos\Kdc\KDC\Receptor\obj\Debug\Receptor.exe
+C:\Users\POXS44\source\repos\Kdc\KDC\Receptor\obj\Debug\Receptor.pdb

@@ -1,0 +1,9 @@
+C:\Users\POXS44\source\repos\Kdc\KDC\KDC\bin\Debug\KDC.exe.config
+C:\Users\POXS44\source\repos\Kdc\KDC\KDC\bin\Debug\KDC.exe
+C:\Users\POXS44\source\repos\Kdc\KDC\KDC\bin\Debug\KDC.pdb
+C:\Users\POXS44\source\repos\Kdc\KDC\KDC\obj\Debug\KDC.csprojAssemblyReference.cache
+C:\Users\POXS44\source\repos\Kdc\KDC\KDC\obj\Debug\KDC.Properties.Resources.resources
+C:\Users\POXS44\source\repos\Kdc\KDC\KDC\obj\Debug\KDC.csproj.GenerateResource.cache
+C:\Users\POXS44\source\repos\Kdc\KDC\KDC\obj\Debug\KDC.csproj.CoreCompileInputs.cache
+C:\Users\POXS44\source\repos\Kdc\KDC\KDC\obj\Debug\KDC.exe
+C:\Users\POXS44\source\repos\Kdc\KDC\KDC\obj\Debug\KDC.pdb
