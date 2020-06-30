@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Receptor.Properties
+namespace KDC.Properties
 {
 
 
