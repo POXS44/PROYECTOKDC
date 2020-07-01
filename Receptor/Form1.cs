@@ -9,12 +9,15 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Utils;
 
 namespace Receptor
 {
     public partial class Form1 : Form
     {
-
+        byte[] ka = System.Text.UTF8Encoding.UTF8.GetBytes("12345678901234567890123456789012");
+        byte[] kb = System.Text.UTF8Encoding.UTF8.GetBytes("12345678901234567890123456789034");
+       
         public static TcpListener server; 
 
 
@@ -38,9 +41,34 @@ namespace Receptor
             rbt_log.Text = "Iniciado";
             while (true)
             {
+                Byte[] mensaje = new byte[512];
+                string obtenido = "";
+
                 rbt_log.AppendText("\nEsperando Clientes");
                 TcpClient cliente = await server.AcceptTcpClientAsync();
                 rbt_log.AppendText("\nconectado");
+
+                NetworkStream stream = cliente.GetStream();
+                int i = 0;
+               
+               i=  stream.Read(mensaje,0,mensaje.Length);
+
+                obtenido= Utilidad_Cifrado2.DecryptStringFromBytes(mensaje,ka,Utilidad_Cifrado2.IV);
+
+                rbt_log.AppendText("\n" + obtenido);
+
+                /*
+                while ((i = stream.Read(mensaje, 0, mensaje.Length)) != 0)
+                {
+                    rbt_log.AppendText("\n"+Utilidad_Cifrado.ByteArrayToString(mensaje));
+
+                    byte[] mensajedecifrado = Utilidad_Cifrado.DecryptString(mensaje,ka);
+
+                    //Translate data bytes to a  ASCII STRING
+                    obtenido = System.Text.Encoding.ASCII.GetString(mensajedecifrado, 0, i);
+                    rbt_log.AppendText("Recibido: " + obtenido);
+                }
+                */
                 cliente.Close();
 
             }

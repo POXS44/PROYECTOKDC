@@ -16,5 +16,10 @@ namespace KDC
         {
             InitializeComponent();
         }
+
+        private void bt_conectar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
