@@ -42,19 +42,23 @@ namespace Receptor
             while (true)
             {
                 Byte[] mensaje = new byte[512];
+                Byte[] IV = new byte[16];
+                Byte[] resto = new byte[16];
                 string obtenido = "";
 
                 rbt_log.AppendText("\nEsperando Clientes");
                 TcpClient cliente = await server.AcceptTcpClientAsync();
+                MessageBox.Show(cliente.Client.RemoteEndPoint.ToString());
                 rbt_log.AppendText("\nconectado");
-
+                
                 NetworkStream stream = cliente.GetStream();
                 int i = 0;
                
                i=  stream.Read(mensaje,0,mensaje.Length);
-
-                obtenido= Utilidad_Cifrado2.DecryptStringFromBytes(mensaje,ka,Utilidad_Cifrado2.IV);
-
+                Array.Copy(mensaje, IV, 16);
+                rbt_log.AppendText(Utilidad_Cifrado.ByteArrayToString(IV));
+                Array.Copy(mensaje, IV.Length, resto, 0, 16);
+                obtenido= Utilidad_Cifrado2.DecryptStringFromBytes(resto,ka,IV);
                 rbt_log.AppendText("\n" + obtenido);
 
                 /*
